@@ -1,0 +1,18 @@
+{
+  "name": "video_thumbnail_lambda",
+  "version": "1.0.0",
+  "description": "Vide thumbnail generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhi Thakkar (abhi.t)",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.345.0",
+    "ffmpeg": "0.0.4",
+    "fs": "0.0.1-security",
+    "get-video-dimensions": "^1.0.0",
+    "video-screen": "0.0.1"
+  }
+}
